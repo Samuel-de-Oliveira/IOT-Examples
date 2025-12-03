@@ -3,7 +3,7 @@ CXX    = gcc
 TARGET = a.out
 
 all:
-	$(CXX) $(FILE) -o $(TARGET)
+	$(CXX) $(FILE) -o $(TARGET) -lm
 
 clean:
 	rm -rf $(TARGET)
